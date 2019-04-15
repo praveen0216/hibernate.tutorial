@@ -32,11 +32,14 @@ public class CreateStudentDemo {
 			System.out.println("Saving oject to session");
 			// int theId=(Integer) session.save(student1);
 
+			session.save(student1);
 			session.save(student2);
 
 			// commit the transaction
 			System.out.println("Commit transaction");
 			session.getTransaction().commit();
+			
+			System.out.println("Done");
 
 		} catch (Exception e) {
 			System.out.println("Error : " + e);

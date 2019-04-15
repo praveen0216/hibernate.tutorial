@@ -23,7 +23,7 @@ public class PrimaryKeyDemo {
 		   //create a student object 
 		  System.out.println("creating a student object");
 		   
-		  Student student1=new Student("Ankit","Sharma","as@gmail.com"); 
+		  Student student1=new Student("Sriram","Chaitanya","sc@gmail.com"); 
 		  Student student2=new Student("Deepak","Sharma","ds@gmail.com");
 		  Student student3=new Student("Ronit","Sandhu","rs@gmail.com");
 		   
@@ -36,8 +36,8 @@ public class PrimaryKeyDemo {
 		 //int theId=(Integer) session.save(student1);
 		 
 		 session.save(student1);
-		 session.save(student2);
-		 session.save(student3);
+		 //session.save(student2);
+		 //session.save(student3);
 		 
 		 
 		   //commit the transaction
