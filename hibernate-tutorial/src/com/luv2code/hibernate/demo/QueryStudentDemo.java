@@ -27,7 +27,7 @@ public class QueryStudentDemo {
 			session.beginTransaction();
 
 			// query students
-			List<Student> theStudents = session.createQuery("from Student s where id=4 or s.firstName like '%nkit'")
+			List<Student> theStudents = session.createQuery("from Student s where  s.email like '%gmail.com'")
 					.getResultList();
 
 			// display the student
